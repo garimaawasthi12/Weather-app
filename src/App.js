@@ -9,6 +9,7 @@ const App = () => {
   const onInputset = (citynamedata) => {
     setCityName(citynamedata);
   };
+  console.log(cityName);
 
   const hitAPI = async () => {
     setError(""); 
